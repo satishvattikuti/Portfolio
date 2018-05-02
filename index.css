@@ -21,7 +21,7 @@ h4 {
 html {
   height:100%;
 }
-h1 {
+.title {
   text-align: center;
   font-weight:700;
   font-size:2em;
@@ -30,13 +30,13 @@ h1 {
   animation-name: slidein;
 }
 
-p {
+/* p {
   padding: 10px;
   font-size:25px;
   font-weight:bold;
   animation-duration: 3s;
   animation-name: slidein;
-}
+} */
 
 #main-content {
   margin-top: 10%;
