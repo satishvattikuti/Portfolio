@@ -1,9 +1,17 @@
 body {
-  background-position: center;
+  background-color:#204064;
   font-family: Lato;
   color: whitesmoke;
 }
 
+h4 {
+  color:white;
+  font-size: 20px;
+  line-height: 1em;
+  font-weight:bold;
+  word-spacing: 2px;
+  line-height: 1.7em; 
+}
 
 
 .navbar-inverse .navbar-nav > li > a {
@@ -16,7 +24,8 @@ html {
 h1 {
   text-align: center;
   font-weight:700;
-  font-size:3em;
+  font-size:2em;
+  color:white;
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -24,7 +33,7 @@ h1 {
 p {
   padding: 10px;
   font-size:25px;
-  color: white;
+  font-weight:bold;
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -32,7 +41,7 @@ p {
 #main-content {
   margin-top: 10%;
   text-align: justify;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-name: slidein;
   /* //box-shadow:     5px 5px 5px 6px black; */
 }
@@ -40,6 +49,8 @@ p {
 .thumbnail {
   /* height: 300px; */
   box-shadow:     5px 5px 5px 6px black;
+  animation-duration: 2s;
+  animation-name: slidein;
 }
 
 .caption {
@@ -61,11 +72,11 @@ p {
     width: 100%;
   }
 }
-
+/* 
 body {
   animation: pulse 10s infinite;
-}
-
+} */
+/* 
 @keyframes pulse {
   0% {
     background-color:#334457;
@@ -73,7 +84,7 @@ body {
   100% {
     background-color: #204064;
   }
-}
+} */
 
 span {
   font-weight: bold;

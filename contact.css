@@ -2,8 +2,8 @@ body{
 	width:100%;
 	height:100%;
 	/* font-family: 'Roboto Condensed', sans-serif; */
-  background:#3A6AA1;
-  font-family: Lato;
+	background-color: #204064;
+	font-family: Lato;
   color: whitesmoke;
 }
 
@@ -33,7 +33,7 @@ a:hover,a:focus{
 }
 
 #contact{
-	background:#3A6AA1;
+	/* background:#3A6AA1; */
 	color:#f4f4f4;
 	padding-bottom:80px;
 }
