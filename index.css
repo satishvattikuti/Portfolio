@@ -1,15 +1,14 @@
 body {
-  background-color:#204064;
-  font-family: Lato;
+  background-image: url("http://www.img.lirent.net/2014/10/Android-Lollipop-wallpapers-5.jpg");
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
   color: whitesmoke;
 }
 
 h4 {
   color:white;
   font-size: 20px;
-  line-height: 1em;
-  font-weight:bold;
-  word-spacing: 2px;
+  word-spacing: 1px;
   line-height: 1.7em; 
 }
 
@@ -23,7 +22,6 @@ html {
 }
 .title {
   text-align: center;
-  font-weight:700;
   font-size:2em;
   color:white;
   animation-duration: 3s;
@@ -49,7 +47,7 @@ html {
 .thumbnail {
   /* height: 300px; */
   box-shadow:     5px 5px 5px 6px black;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-name: slidein;
 }
 
@@ -72,6 +70,7 @@ html {
     width: 100%;
   }
 }
+
 /* 
 body {
   animation: pulse 10s infinite;

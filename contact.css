@@ -2,7 +2,10 @@ body{
 	width:100%;
 	height:100%;
 	/* font-family: 'Roboto Condensed', sans-serif; */
-	background-color: #204064;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("http://www.img.lirent.net/2014/10/Android-Lollipop-wallpapers-5.jpg");
+	background-size: cover;
+	/* background-color: #204064; */
 	font-family: Lato;
   color: whitesmoke;
 }
