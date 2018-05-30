@@ -1,0 +1,92 @@
+body {
+  background-image: url("http://www.img.lirent.net/2014/10/Android-Lollipop-wallpapers-5.jpg");
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: whitesmoke;
+}
+
+h4 {
+  color:white;
+  font-size: 20px;
+  word-spacing: 1px;
+  line-height: 1.7em; 
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+  color:white
+}
+
+html {
+  height:100%;
+}
+.title {
+  text-align: center;
+  font-size:2em;
+  color:white;
+  font-weight: 600;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+/* p {
+  padding: 10px;
+  font-size:25px;
+  font-weight:bold;
+  animation-duration: 3s;
+  animation-name: slidein;
+} */
+
+#main-content {
+  margin-top: 10%;
+  text-align:center;
+  animation-duration: 2s;
+  animation-name: slidein;
+  /* //box-shadow:     5px 5px 5px 6px black; */
+}
+
+.thumbnail {
+  /* height: 300px; */
+  box-shadow:     5px 5px 5px 6px black;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.caption {
+  font-weight: bold;
+}
+
+.black-background {background-color:#000000;}
+.white {color:#ffffff;}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* 
+body {
+  animation: pulse 10s infinite;
+} */
+/* 
+@keyframes pulse {
+  0% {
+    background-color:#334457;
+  }
+  100% {
+    background-color: #204064;
+  }
+} */
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
